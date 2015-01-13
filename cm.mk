@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/pa/config/gsm.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -22,3 +22,4 @@ PRODUCT_MODEL := LG-D800
 PRODUCT_MANUFACTURER := lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=lge/g2_att_us/g2:4.4.2/KOT49I.D80020k/D80020k.1393917793:user/release-keys PRIVATE_BUILD_DESC="g2_att_us-user 4.4.2 KOT49I.D80020k D80020k.1393917793 release-keys"
+
