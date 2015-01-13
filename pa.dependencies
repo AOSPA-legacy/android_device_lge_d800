@@ -2,7 +2,7 @@
   {
     "remote":      "github",
     "repository":  "mikecriggs/android_device_lge_g2-common",
-    "target_path": "device/lge/g2-common"
+    "target_path": "device/lge/g2-common",
     "revision":    "lollipop"
   },
   {
