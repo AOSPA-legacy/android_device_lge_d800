@@ -26,9 +26,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_network=9
 
 PRODUCT_COPY_FILES += \
-	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
+	frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
 
 # NFC packages
 PRODUCT_PACKAGES += \
-    nfc_nci.g2 \
+    nfc_nci.bcm2079x.default \
     NfcNci
